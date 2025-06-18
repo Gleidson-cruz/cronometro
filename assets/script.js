@@ -51,7 +51,7 @@ inicarBtn.addEventListener("click", function(){
 pausarBtn.addEventListener("click", function(){
     isPaused = true;
     pausarBtn.style.display = "none";
-    continuarBtn.style.display = "Block";
+    continuarBtn.style.display = "block";
 })
 
 continuarBtn.addEventListener("click", function(){
@@ -62,9 +62,9 @@ continuarBtn.addEventListener("click", function(){
 
 resetarBtn.addEventListener("click", function(){
     clearInterval(interval);
-    let valMinutos = 0;
-    let valSegundos = 0;
-    let valMlSegundos = 0;
+    valMinutos = 0;
+    valSegundos = 0;
+    valMlSegundos = 0;
 
     minutos.textContent = "00";
     segundos.textContent = "00";
